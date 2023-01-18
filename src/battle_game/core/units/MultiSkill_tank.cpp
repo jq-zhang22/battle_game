@@ -75,6 +75,7 @@ void MultiTank::Shield() {
     }
   }
 }
+    
 bool MultiTank::IsHit(glm::vec2 position) const {
   if (be_protected == true)
     return false; 
